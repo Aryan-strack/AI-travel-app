@@ -2,7 +2,7 @@ import { GoogleGenerativeAI } from '@google/generative-ai';
 import type { TravelPlan } from '../types/types';
 
 
-const API_KEY = "AIzaSyAImuoVeZAV2ePHQqx0P481-VH3gmDWFdI"
+const API_KEY = ""
 const genAI = new GoogleGenerativeAI(API_KEY);
 
 
