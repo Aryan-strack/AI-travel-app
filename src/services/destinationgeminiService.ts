@@ -33,7 +33,7 @@ const schema = {
 };
 
 // Set your Gemini API key here
-const GEMINI_API_KEY = "AIzaSyBmUjRtrTw5OkIl9dJl6A4klhOq2QI0cT8"; // TODO: Replace with your actual API key
+const GEMINI_API_KEY = ""; // TODO: Replace with your actual API key
 
 const fileToGenerativePart = async (file: { uri: string; name: string; type: string }) => {
   // Expo/React Native: fetch the file and convert to base64
