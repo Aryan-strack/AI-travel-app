@@ -2,9 +2,9 @@
 import { Car, CarSearchParams } from '../types/api';
 import { ImageService } from './ImageService';
 
-const AMADEUS_API_KEY = 'vJ7GWJX57u0MAMFbVL6XBQegcFqyeO4W';
-const AMADEUS_API_SECRET = 'NrYrHCig2SOAEtjB';
-const AMADEUS_BASE_URL = 'https://test.api.amadeus.com';
+const AMADEUS_API_KEY = '';
+const AMADEUS_API_SECRET = '';
+const AMADEUS_BASE_URL = '';
 
 class CarService {
   private accessToken: string | null = null;
