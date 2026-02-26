@@ -1,7 +1,7 @@
 import { GoogleGenerativeAI } from '@google/generative-ai';
 
 // Initialize Gemini AI
-const genAI = new GoogleGenerativeAI('AIzaSyAap9T-aHS1gkg9lzR3zxlRCp_Tj3zGvA4');
+const genAI = new GoogleGenerativeAI('');
 
 export interface ChatMessage {
   id: string;
